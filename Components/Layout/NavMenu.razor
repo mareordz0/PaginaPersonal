@@ -1,0 +1,38 @@
+﻿@code {
+    private bool isCollapsed = false;
+
+    private void ToggleMenu()
+    {
+        isCollapsed = !isCollapsed;
+    }
+}
+
+<div class="nav-menu @(isCollapsed ? "collapsed" : "")">
+    <button class="toggle-menu" @onclick="ToggleMenu">
+        @(isCollapsed ? "▼" : "▲")
+    </button>
+
+        <ul>
+            <li><NavLink href="/">Inicio</NavLink></li>
+            <li><NavLink href="/sobre-mi">Sobre mí</NavLink></li>
+            <li><NavLink href="/contacto">Contacto</NavLink></li>
+        </ul>
+</div>
+
+<!--
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">PortafolioPro</a>
+    </div>
+</div>
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="nav flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+    </nav>
+</div>
+-->
