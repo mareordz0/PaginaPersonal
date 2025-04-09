@@ -1,0 +1,179 @@
+/* Texto en general */
+:root {
+    font-size: 12px; /* Tamaño base (ajústalo) */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* === Fuentes === */
+@font-face {
+    font-family: 'Pixel';
+    src: url('/fonts/PixelifySans.ttf') format('truetype');
+}
+
+/* === Contenedor Principal === */
+.top-nav-container {
+    background: #1a1a1a;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #00ff00;
+    align-items: stretch !important; /* Alineación original */
+    min-height: 80px; /* Altura inicial del nav */
+}
+
+/* === Barra de Navegación === */
+.nav-bar {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+    .nav-bar a {
+        color: #FFFFFF !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.3s;
+        font-family: 'Pixel', sans-serif;
+        font-size: 1rem !important;
+        position: relative;
+    }
+
+        .nav-bar a:hover {
+            color: #00ff00 !important;
+            text-shadow: 0 0 10px #00ff7b;
+        }
+        .nav-bar a.active {
+            color: #00FF00 !important;
+            text-shadow: 0 0 10px #00ff007d;
+        }
+
+.nav-item {
+    position: relative;
+    padding-bottom: 1px; /* Espacio para la flecha */
+}
+
+/* === Logo Persona 5 === */
+.logo-persona5 {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    max-width: 30px;
+    width: auto;
+    min-width: 10px;
+    height: auto;
+    transition: transform 0.3s;
+    margin-left: auto; /* Empuja el logo a la derecha */
+    align-self: center;
+    flex-shrink: 0;
+    transform: translateY(-50%);
+}
+
+    .logo-persona5 img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        image-rendering: pixelated;
+        display: block;
+        transform: none !important; /* Anular cualquier transformación previa */
+    }
+
+    .logo-persona5:hover {
+        transform: scale(1.1) !important;
+        rotate: 0deg;
+    }
+
+/* === Botones Arcade === */
+.btn-arcade {
+    background: #2C2C2C;
+    border: 2px solid #8B0000;
+    color: #00FF00;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Pixel', sans-serif;
+}
+
+    .btn-arcade:hover {
+        background: #8B0000;
+        box-shadow: 0 0 15px #FF0000;
+    }
+/* Estilos para la flecha */
+.active-arrow {
+    display: none;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-90deg);
+    width: 15px;
+    height: 20px;
+    background: url('/images/icons8.png') no-repeat center;
+    background-size: contain;
+    animation: float 1.5s ease-in-out infinite;
+}
+
+/* Mostrar solo en pestaña activa */
+.nav-bar a.active .active-arrow {
+    display: block;
+}
+
+/* Animación flotante */
+@keyframes float {
+    0%, 100% {
+        transform: translateX(-50%) rotate(-90deg) translateY(0);
+    }
+
+    50% {
+        transform: translateX(-50%) rotate(-90deg) translateY(-5px);
+    }
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    .top-nav-container {
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .nav-bar {
+        gap: 1.5rem;
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-persona5 {
+        max-width: 20px;
+        margin-left: 0;
+        height: 5px;
+    }
+
+    .active-arrow {
+        width: 15px;
+        height: 15px;
+        bottom: -10px;
+    }
+
+    .nav-item {
+        padding-bottom: 10px;
+    }
+}
+
+/* Rotación y ajuste de imagen */
+@media (prefers-reduced-motion: no-preference) {
+    .active-arrow {
+        transition: transform 0.3s;
+    }
+}

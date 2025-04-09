@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<button @onclick="ProbarConsola">¡Haz clic!</button>
+
+@code {
+    private void ProbarConsola()
+    {
+        Console.WriteLine("¡BOTÓN FUNCIONA EN SERVIDOR!"); // Ver en Output > ASP.NET Core Web Server
+    }
+}
