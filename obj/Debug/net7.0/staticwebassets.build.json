@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0548TF+n9cvNU0fuMCHVMyHh45BbnE/09BYimAeZVTE=",
+  "Hash": "au0hfifwHxJ6pCT3cNXRv0D3BhoutUL7eHJ2v2Vt8qw=",
   "Source": "PortafolioM",
   "BasePath": "_content/PortafolioM",
   "Mode": "Default",
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "leblny41p6",
-      "Integrity": "AxTe3lv2Npj4NT6EDaIxyzMKAof2KO1qNtWaIyBfYxE=",
+      "Fingerprint": "bh51j4ne5r",
+      "Integrity": "/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1278,6 +1278,51 @@
       ]
     },
     {
+      "Route": "css/site.bh51j4ne5r.css",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bh51j4ne5r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1288,7 +1333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3902"
+          "Value": "10855"
         },
         {
           "Name": "Content-Type",
@@ -1296,11 +1341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AxTe3lv2Npj4NT6EDaIxyzMKAof2KO1qNtWaIyBfYxE=\""
+          "Value": "\"/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 04:44:33 GMT"
+          "Value": "Fri, 09 May 2025 19:05:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1310,52 +1355,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AxTe3lv2Npj4NT6EDaIxyzMKAof2KO1qNtWaIyBfYxE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.leblny41p6.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3902"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AxTe3lv2Npj4NT6EDaIxyzMKAof2KO1qNtWaIyBfYxE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 04:44:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "leblny41p6"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AxTe3lv2Npj4NT6EDaIxyzMKAof2KO1qNtWaIyBfYxE="
+          "Value": "sha256-/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM="
         }
       ]
     },

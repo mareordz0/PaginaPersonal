@@ -1,6 +1,16 @@
+﻿/* Aplica a todas las secciones */
+.skills-section h3,
+.interests-section h3,
+.timeline-section h3,
+.skills-grid,
+.interests-list li,
+.timeline li {
+    color: #FFFFFF; /* Texto bien blanco */
+}
+
 /* Texto en general */
 :root {
-    font-size: 12px; /* Tama�o base (aj�stalo) */
+    font-size: 12px; /* Tamaño base (ajústalo) */
 }
 
 h1 {
@@ -17,6 +27,29 @@ h2 {
     src: url('/fonts/PixelifySans.ttf') format('truetype');
 }
 
+/* Que html y body sean 100% de alto y sin márgenes blancos*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #121212; /* mismo color oscuro de tu body */
+}
+
+.layout-wrapper {
+    background: inherit; /* hereda el #121212 de html/body */
+    min-height: 100%; /* asegúrate de que cubra todo */
+}
+
+.main-content {
+    background: transparent; /* hereda el fondo de layout-wrapper */
+    /* ó bien */
+    /* background: #1e1e1e; */
+}
+
+#blazor-error-ui {
+    display: none !important;
+}
+
 /* === Contenedor Principal === */
 .top-nav-container {
     background: #1a1a1a;
@@ -25,18 +58,26 @@ h2 {
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid #00ff00;
-    align-items: stretch !important; /* Alineaci�n original */
+    align-items: stretch !important; /* Alineación original */
     min-height: 80px; /* Altura inicial del nav */
 }
 
-/* === Barra de Navegaci�n === */
+/* === Barra de Navegación === */
+.topbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 1rem;
+    background-color: #1a1a1a;
+}
+
 .nav-bar {
     display: flex;
     gap: 3rem;
     list-style: none;
     margin: 0;
     padding: 0;
-    flex-grow: 1;
+    flex-grow: 1; /* ocupa todo el espacio disponible */
     justify-content: center;
 }
 
@@ -61,23 +102,28 @@ h2 {
 
 .nav-item {
     position: relative;
-    padding-bottom: 1px; /* Espacio para la flecha */
+    padding-bottom: 4px; /* Espacio para la flecha */
 }
 
 /* === Logo Persona 5 === */
-.logo-persona5 {
+/*.logo-persona5 {
     position: absolute;
     right: 20px;
     top: 50%;
     max-width: 30px;
-    width: auto;
+    width: 30px;
     min-width: 10px;
     height: auto;
     transition: transform 0.3s;
-    margin-left: auto; /* Empuja el logo a la derecha */
+    margin-left: auto; /* Empuja el logo a la derecha /
     align-self: center;
     flex-shrink: 0;
     transform: translateY(-50%);
+} */
+
+.logo-persona5 {
+    margin-left: auto; /* aquí reside el “truco” */
+    width: 30px;
 }
 
     .logo-persona5 img {
@@ -86,7 +132,7 @@ h2 {
         object-fit: contain;
         image-rendering: pixelated;
         display: block;
-        transform: none !important; /* Anular cualquier transformaci�n previa */
+        transform: none !important; /* Anular cualquier transformación previa */
     }
 
     .logo-persona5:hover {
@@ -123,12 +169,12 @@ h2 {
     animation: float 1.5s ease-in-out infinite;
 }
 
-/* Mostrar solo en pesta�a activa */
+/* Mostrar solo en pestaña activa */
 .nav-bar a.active .active-arrow {
     display: block;
 }
 
-/* Animaci�n flotante */
+/* Animación flotante */
 @keyframes float {
     0%, 100% {
         transform: translateX(-50%) rotate(-90deg) translateY(0);
@@ -171,9 +217,300 @@ h2 {
     }
 }
 
-/* Rotaci�n y ajuste de imagen */
+/* Rotación y ajuste de imagen */
 @media (prefers-reduced-motion: no-preference) {
     .active-arrow {
         transition: transform 0.3s;
     }
 }
+
+/* Hero Section */
+.hero {
+    width: 100vw; /* todo el ancho de la ventana */
+    height: 100vh; /* toda la altura de la ventana */
+    margin: 0; /* elimina márgenes */
+    padding: 0; /* elimina paddings */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color: #ff4d4d; /* rojo Persona 5 */
+    margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #d7d7d7;
+    margin-bottom: 1.5rem;
+}
+
+/* Botón “ghost” minimalista */
+.btn-ghost {
+    background: transparent;
+    border: 2px solid #ff4d4d;
+    color: #ff4d4d;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: not-allowed;
+    transition: background 0.2s, color 0.2s;
+}
+
+    .btn-ghost:hover:not(:disabled) {
+        background: #ff4d4d;
+        color: #1a1a1a;
+    }
+
+/* Responsive */
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}
+
+/* Sobre mí - Hero */
+.about-hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #1e1e1e, #121212);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.avatar {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    border: 3px solid #ff4d4d;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+    .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.intro h2 {
+    color: #ff4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.intro p {
+    color: #d7d7d7;
+    line-height: 1.5;
+}
+
+/* Habilidades */
+.skills-section {
+    margin-bottom: 2rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+}
+
+.skill-card {
+    background: #1a1a1a;
+    border: 2px solid #ff4d4d;
+    border-radius: 4px;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #d7d7d7;
+}
+
+/* Intereses */
+.interests-section {
+    margin-bottom: 2rem;
+}
+
+.interests-list {
+    list-style: none;
+    padding: 0;
+}
+
+    .interests-list li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #d7d7d7;
+    }
+
+        .interests-list li::before {
+            content: "▶";
+            position: absolute;
+            left: 0;
+            color: #ff4d4d;
+        }
+
+/* Línea de tiempo */
+.timeline-section {
+    margin-bottom: 2rem;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    counter-reset: step;
+}
+
+    .timeline li {
+        position: relative;
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+        .timeline li::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #ff4d4d;
+            color: #1a1a1a;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 1.5rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+/* Pagina proyectos */
+.projects-page {
+    padding: 2rem;
+    color: #fff;
+    font-family: 'Pixel', sans-serif;
+}
+
+    .projects-page h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        text-shadow: 0 0 10px #ff4d4d;
+    }
+
+.project-card {
+    background: linear-gradient(135deg, #1e1e1e, #121212);
+    border: 1px solid #ff4d4d;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .project-card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 20px #ff4d4d;
+    }
+
+.btn-proyecto {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+    .btn-proyecto:hover {
+        background-color: #ff1a1a;
+    }
+
+/* Contacto — página */
+.contact-page {
+    max-width: 400px;
+    margin: 2rem auto;
+    background: linear-gradient(135deg, #1e1e1e, #121212);
+    border: 1px solid #ff4d4d;
+    border-radius: 8px;
+    padding: 2rem;
+    color: #d7d7d7;
+    font-family: 'Pixel', sans-serif;
+    text-align: center;
+}
+
+    .contact-page h2 {
+        color: #ff4d4d;
+        margin-bottom: 1.5rem;
+        text-shadow: 0 0 10px #ff4d4d;
+    }
+
+.contact-item {
+    margin-bottom: 1.5rem;
+}
+
+.reveal-button {
+    background: #1a1a1a;
+    border: 1px solid #ff4d4d;
+    color: #ff4d4d;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+    .reveal-button:hover {
+        background: #ff4d4d;
+        color: #1a1a1a;
+    }
+
+.contact-value {
+    margin-top: 0.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.linkedin-link {
+    display: inline-block;
+    background: #0077b5;
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+    .linkedin-link:hover {
+        background: #005582;
+    }
+
+.github-link {
+    display: inline-block;
+    background: #333; 
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+    .github-link:hover {
+        background: #6cc644; 
+    }
+

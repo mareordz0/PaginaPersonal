@@ -33,3 +33,4 @@ C:\Users\User\source\repos\PortafolioM\obj\Debug\net7.0\refint\PortafolioM.dll
 C:\Users\User\source\repos\PortafolioM\obj\Debug\net7.0\PortafolioM.pdb
 C:\Users\User\source\repos\PortafolioM\obj\Debug\net7.0\PortafolioM.genruntimeconfig.cache
 C:\Users\User\source\repos\PortafolioM\obj\Debug\net7.0\ref\PortafolioM.dll
+C:\Users\User\source\repos\PortafolioM\obj\Debug\net7.0\PortafolioM.sourcelink.json

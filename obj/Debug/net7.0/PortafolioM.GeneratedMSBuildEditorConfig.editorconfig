@@ -24,8 +24,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/source/repos/PortafolioM/Pages/Contacto.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/source/repos/PortafolioM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/PortafolioM/Pages/Proyectos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJveWVjdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/PortafolioM/Pages/SobreMi.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29icmVNaS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/source/repos/PortafolioM/Shared/SurveyPrompt.razor]

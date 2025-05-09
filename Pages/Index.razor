@@ -1,16 +1,11 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Inicio</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<button @onclick="ProbarConsola">¡Haz clic!</button>
-
-@code {
-    private void ProbarConsola()
-    {
-        Console.WriteLine("¡BOTÓN FUNCIONA EN SERVIDOR!"); // Ver en Output > ASP.NET Core Web Server
-    }
-}
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">¡Hola! Soy Mario Alberto</h1>
+        <p class="hero-subtitle">Desarrollador de software • Apasionado por los videojuegos</p>
+        <button class="btn-ghost" disabled>Próximamente: Mis proyectos</button>
+    </div>
+</section>

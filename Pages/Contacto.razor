@@ -1,0 +1,49 @@
+﻿@page "/contacto"
+
+<PageTitle>Contacto</PageTitle>
+
+<section class="contact-page">
+    <h2>📬 Contáctame</h2>
+
+    <div class="contact-item">
+        <button class="reveal-button" @onclick="() => showEmail = !showEmail">
+            📧 Correo electrónico
+        </button>
+        @if (showEmail)
+        {
+            <div class="contact-value">@email</div>
+        }
+    </div>
+
+    <div class="contact-item">
+        <button class="reveal-button" @onclick="() => showWhatsapp = !showWhatsapp">
+            📱 WhatsApp
+        </button>
+        @if (showWhatsapp)
+        {
+            <div class="contact-value">@whatsapp</div>
+        }
+    </div>
+
+    <div class="contact-item">
+        <a class="linkedin-link" href="@linkedinUrl" target="_blank">
+            🔗 Mi LinkedIn
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <a class="github-link" href="@githubUrl" target="_blank">
+            🐙 Mi GitHub
+        </a>
+    </div>
+</section>
+
+@code {
+    private bool showEmail = false;
+    private bool showWhatsapp = false;
+
+    private string email = "mareordz0@gmail.com";
+    private string whatsapp = "+52 844 299 2885";
+    private string linkedinUrl = "https://www.linkedin.com/in/mario-alberto-morales-rdz-598b1223a/";
+    private string githubUrl = "https://github.com/mareordz0";
+}
