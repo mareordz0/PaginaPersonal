@@ -117,7 +117,7 @@ html, body {
 
 .nav-item {
     position: relative;
-    padding-bottom: 4px; /* Espacio para la flecha */
+    padding-bottom: 4px; 
 }
 
 /* === Logo Persona 5 === */
@@ -207,8 +207,13 @@ html, body {
 .layout-wrapper,
 .hero {
     width: 100vw;
+    min-height: 100vh;
+    height: 100dvh;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Hero Section */
@@ -447,40 +452,6 @@ html, body {
             position: absolute;
             left: 0;
             color: #ff4d4d;
-        }
-
-/* Línea de tiempo */
-.timeline-section {
-    margin-bottom: 2rem;
-}
-
-.timeline {
-    list-style: none;
-    padding: 0;
-    counter-reset: step;
-}
-
-    .timeline li {
-        position: relative;
-        padding-left: 2rem;
-        margin-bottom: 1rem;
-    }
-
-        .timeline li::before {
-            counter-increment: step;
-            content: counter(step);
-            position: absolute;
-            left: 0;
-            top: 0;
-            background: #ff4d4d;
-            color: #1a1a1a;
-            width: 1.5rem;
-            height: 1.5rem;
-            border-radius: 50%;
-            text-align: center;
-            line-height: 1.5rem;
-            font-size: 0.9rem;
-            font-weight: bold;
         }
 
 /* Pagina proyectos */

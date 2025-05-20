@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MRsCuN11BCXpHTdkAvSy6E3cvKg/eD/2nLvXXV6xIeI=",
+  "Hash": "ATTNL2mOAI3SRXquxei+FJj9LwzedD/B0+hgRxuaf14=",
   "Source": "PortafolioM",
   "BasePath": "_content/PortafolioM",
   "Mode": "Default",
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "txexsf5u7c",
-      "Integrity": "Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew=",
+      "Fingerprint": "zobm0lzak2",
+      "Integrity": "Tfe2yf4oc0bTXbZDxsBJ8zX3pTIQW1JZQ8EmMa2eL1s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -330,6 +330,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\icono_provisional-mafrow.png",
+      "SourceId": "PortafolioM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\",
+      "BasePath": "_content/PortafolioM",
+      "RelativePath": "Images/icono_provisional-mafrow#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iu4g7d7shb",
+      "Integrity": "dlhhKoJsjO24b3WJcO3EH3TgFX5IOACSPoUIhohgpgA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\icono_provisional-mafrow.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\icons8.png",
@@ -1330,7 +1351,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13464"
+          "Value": "11969"
         },
         {
           "Name": "Content-Type",
@@ -1338,11 +1359,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew=\""
+          "Value": "\"Tfe2yf4oc0bTXbZDxsBJ8zX3pTIQW1JZQ8EmMa2eL1s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 21:38:01 GMT"
+          "Value": "Tue, 20 May 2025 22:20:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1352,12 +1373,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew="
+          "Value": "sha256-Tfe2yf4oc0bTXbZDxsBJ8zX3pTIQW1JZQ8EmMa2eL1s="
         }
       ]
     },
     {
-      "Route": "css/site.txexsf5u7c.css",
+      "Route": "css/site.zobm0lzak2.css",
       "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1367,7 +1388,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13464"
+          "Value": "11969"
         },
         {
           "Name": "Content-Type",
@@ -1375,11 +1396,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew=\""
+          "Value": "\"Tfe2yf4oc0bTXbZDxsBJ8zX3pTIQW1JZQ8EmMa2eL1s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 21:38:01 GMT"
+          "Value": "Tue, 20 May 2025 22:20:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1389,7 +1410,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "txexsf5u7c"
+          "Value": "zobm0lzak2"
         },
         {
           "Name": "label",
@@ -1397,7 +1418,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew="
+          "Value": "sha256-Tfe2yf4oc0bTXbZDxsBJ8zX3pTIQW1JZQ8EmMa2eL1s="
         }
       ]
     },
@@ -1480,6 +1501,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/icono_provisional-mafrow.iu4g7d7shb.png",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\icono_provisional-mafrow.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "349778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dlhhKoJsjO24b3WJcO3EH3TgFX5IOACSPoUIhohgpgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 Feb 2024 19:18:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iu4g7d7shb"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/icono_provisional-mafrow.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dlhhKoJsjO24b3WJcO3EH3TgFX5IOACSPoUIhohgpgA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/icono_provisional-mafrow.png",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\icono_provisional-mafrow.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "349778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dlhhKoJsjO24b3WJcO3EH3TgFX5IOACSPoUIhohgpgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 Feb 2024 19:18:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dlhhKoJsjO24b3WJcO3EH3TgFX5IOACSPoUIhohgpgA="
         }
       ]
     },
