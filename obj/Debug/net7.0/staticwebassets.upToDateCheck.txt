@@ -13,3 +13,5 @@ wwwroot\css\site.css
 wwwroot\favicon.png
 wwwroot\Images\icons8.png
 wwwroot\Images\LogoPersona5.png
+wwwroot\Images\pokebal.png
+wwwroot\Images\pokemon-red_blue_yellow-item-found-sound-effect.mp3

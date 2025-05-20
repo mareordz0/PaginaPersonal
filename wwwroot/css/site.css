@@ -7,6 +7,15 @@
 .timeline li {
     color: #FFFFFF; /* Texto bien blanco */
 }
+.content.px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.sidebar.collapsed {
+    width: 0 !important; /* ya no ocupará espacio */
+    overflow: hidden; /* oculta cualquier contenido sobrante */
+}
 
 /* Texto en general */
 :root {
@@ -33,16 +42,22 @@ html, body {
     margin: 0;
     padding: 0;
     background: #121212; /* mismo color oscuro de tu body */
+    overflow-x: hidden;
 }
 
 .layout-wrapper {
     background: inherit; /* hereda el #121212 de html/body */
     min-height: 100%; /* asegúrate de que cubra todo */
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .main-content {
     background: transparent; /* hereda el fondo de layout-wrapper */
-    /* ó bien */
+    flex: 1; /* ocupa todo el espacio restante */
+    /**margin: 0; /* ó bien */
     /* background: #1e1e1e; */
 }
 
@@ -57,7 +72,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 3px solid #00ff00;
+    border-bottom: 3px solid #9B0101;
     align-items: stretch !important; /* Alineación original */
     min-height: 80px; /* Altura inicial del nav */
 }
@@ -92,12 +107,12 @@ html, body {
     }
 
         .nav-bar a:hover {
-            color: #00ff00 !important;
-            text-shadow: 0 0 10px #00ff7b;
+            color: #F55D1C !important;
+            text-shadow: 0 0 10px #F55D1C;
         }
         .nav-bar a.active {
-            color: #00FF00 !important;
-            text-shadow: 0 0 10px #00ff007d;
+            color: #D81910 !important;
+            text-shadow: 0 0 10px #A24641;
         }
 
 .nav-item {
@@ -155,35 +170,6 @@ html, body {
         background: #8B0000;
         box-shadow: 0 0 15px #FF0000;
     }
-/* Estilos para la flecha */
-.active-arrow {
-    display: none;
-    position: absolute;
-    bottom: -9px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-90deg);
-    width: 15px;
-    height: 20px;
-    background: url('/images/icons8.png') no-repeat center;
-    background-size: contain;
-    animation: float 1.5s ease-in-out infinite;
-}
-
-/* Mostrar solo en pestaña activa */
-.nav-bar a.active .active-arrow {
-    display: block;
-}
-
-/* Animación flotante */
-@keyframes float {
-    0%, 100% {
-        transform: translateX(-50%) rotate(-90deg) translateY(0);
-    }
-
-    50% {
-        transform: translateX(-50%) rotate(-90deg) translateY(-5px);
-    }
-}
 
 /* === Responsive === */
 @media (max-width: 768px) {
@@ -201,15 +187,10 @@ html, body {
     }
 
     .logo-persona5 {
-        max-width: 20px;
+        max-width: 40px;
         margin-left: 0;
-        height: 5px;
-    }
-
-    .active-arrow {
-        width: 15px;
-        height: 15px;
-        bottom: -10px;
+        height: auto;
+        flex-shrink: 0;
     }
 
     .nav-item {
@@ -217,41 +198,147 @@ html, body {
     }
 }
 
-/* Rotación y ajuste de imagen */
-@media (prefers-reduced-motion: no-preference) {
-    .active-arrow {
-        transition: transform 0.3s;
-    }
+/* Asegura que todo el layout use el 100% del ancho */
+.hero,
+.main-content {
+    background: transparent; /* ya no se verá ningún otro color debajo */
+}
+
+.layout-wrapper,
+.hero {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 /* Hero Section */
 .hero {
-    width: 100vw; /* todo el ancho de la ventana */
-    height: 100vh; /* toda la altura de la ventana */
-    margin: 0; /* elimina márgenes */
-    padding: 0; /* elimina paddings */
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem 0;
+    width: 100vw;
+    height: 50vh;
     background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
     text-align: center;
-}
-
-.hero-content {
-    max-width: 600px;
+    overflow: hidden;
 }
 
 .hero-title {
-    font-size: 2.5rem;
-    color: #ff4d4d; /* rojo Persona 5 */
-    margin-bottom: 0.5rem;
+    color: #ff4d4d !important; /* fuerza el rojo */
+    text-shadow: 0 0 10px #ff4d4d;
+    margin: 0;
+    padding: 0;
 }
 
+/* Asegura hero-content posicionado verticalmente */
+.hero-content {
+    padding: 2rem; /* este padding puede hacer “cuadro” muy alto */
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+/* Espacio entre CV y botón de sonido */
+.btn-ghost {
+    margin-bottom: 2rem; /* separa del botón de sonido */
+}
+
+/* Botón de sonido pequeño */
+.btn-sound {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 2rem; /* empuja hacia abajo respecto al CV */
+}
+
+/* Imagen dentro del botón de sonido */
+.sound-icon {
+    width: 16px; 
+    height: 16px;
+    display: block;
+    pointer-events: none; /* para que el clic lo reciba el botón */
+}
+
+/* Efecto typing para el nombre */
+.typing-wrapper {
+    display: inline-block;
+    overflow-x: hidden; /* oculta solo en X */
+    overflow-y: visible;
+    border-right: .15em solid #ff4d4d;
+    animation: typing 4s steps(23) forwards, blink-caret .75s step-end infinite;
+    line-height: 1.4;
+}
+
+
+/* Efecto typing para el nombre */
+.typing {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 30ch; /* ajusta al largo de tu nombre */
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #ff4d4d;
+    }
+}
+
+/* Subtítulo */
 .hero-subtitle {
     font-size: 1.25rem;
     color: #d7d7d7;
-    margin-bottom: 1.5rem;
+    margin: 1rem 0 2rem;
 }
+
+/* Botón ghost */
+.btn-ghost {
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #ff4d4d;
+    color: #ff4d4d;
+    padding: .75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: background .2s, color .2s;
+}
+
+    .btn-ghost:hover {
+        background: #ff4d4d;
+        color: #1a1a1a;
+    }
+
+/* Botón de sonido */
+.btn-sound {
+    background: #1a1a1a;
+    border: 1px solid #ff4d4d;
+    color: #ff4d4d;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background .2s, color .2s;
+}
+
+    .btn-sound:hover {
+        background: #ff4d4d;
+        color: #1a1a1a;
+    }
 
 /* Botón “ghost” minimalista */
 .btn-ghost {

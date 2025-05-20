@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "au0hfifwHxJ6pCT3cNXRv0D3BhoutUL7eHJ2v2Vt8qw=",
+  "Hash": "MRsCuN11BCXpHTdkAvSy6E3cvKg/eD/2nLvXXV6xIeI=",
   "Source": "PortafolioM",
   "BasePath": "_content/PortafolioM",
   "Mode": "Default",
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bh51j4ne5r",
-      "Integrity": "/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM=",
+      "Fingerprint": "txexsf5u7c",
+      "Integrity": "Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -372,6 +372,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\LogoPersona5.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokebal.png",
+      "SourceId": "PortafolioM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\",
+      "BasePath": "_content/PortafolioM",
+      "RelativePath": "Images/pokebal#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u8n04y910o",
+      "Integrity": "Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\pokebal.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "SourceId": "PortafolioM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\",
+      "BasePath": "_content/PortafolioM",
+      "RelativePath": "Images/pokemon-red_blue_yellow-item-found-sound-effect#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "po8vo2pesi",
+      "Integrity": "R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3"
     }
   ],
   "Endpoints": [
@@ -1278,51 +1320,6 @@
       ]
     },
     {
-      "Route": "css/site.bh51j4ne5r.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10855"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 19:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bh51j4ne5r"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1333,7 +1330,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10855"
+          "Value": "13464"
         },
         {
           "Name": "Content-Type",
@@ -1341,11 +1338,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM=\""
+          "Value": "\"Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 19:05:49 GMT"
+          "Value": "Tue, 13 May 2025 21:38:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1355,7 +1352,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM="
+          "Value": "sha256-Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.txexsf5u7c.css",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 21:38:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txexsf5u7c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew="
         }
       ]
     },
@@ -1602,6 +1644,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-qZiUctuC3V9ef4Lm1/Mgy+7vpGvXOVZAgMzBlwvDz0Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pokebal.png",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokebal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:29:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pokebal.u8n04y910o.png",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokebal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:29:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u8n04y910o"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pokebal.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:30:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pokemon-red_blue_yellow-item-found-sound-effect.po8vo2pesi.mp3",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:30:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "po8vo2pesi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q="
         }
       ]
     },

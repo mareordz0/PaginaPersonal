@@ -167,6 +167,170 @@
       ]
     },
     {
+      "Route": "Images/pokebal.png",
+      "AssetFile": "Images/pokebal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:29:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pokebal.u8n04y910o.png",
+      "AssetFile": "Images/pokebal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:29:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u8n04y910o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw+cJUhIE="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pokebal.png"
+        }
+      ]
+    },
+    {
+      "Route": "Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "AssetFile": "Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:30:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pokemon-red_blue_yellow-item-found-sound-effect.po8vo2pesi.mp3",
+      "AssetFile": "Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:30:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "po8vo2pesi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3"
+        }
+      ]
+    },
+    {
       "Route": "PortafolioM.styles.css",
       "AssetFile": "PortafolioM.styles.css",
       "Selectors": [],
@@ -1151,51 +1315,6 @@
       ]
     },
     {
-      "Route": "css/site.bh51j4ne5r.css",
-      "AssetFile": "css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10855"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 19:05:49 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bh51j4ne5r"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM="
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
@@ -1210,7 +1329,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10855"
+          "Value": "13464"
         },
         {
           "Name": "Content-Type",
@@ -1218,17 +1337,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM=\""
+          "Value": "\"Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 19:05:49 GMT"
+          "Value": "Tue, 13 May 2025 21:38:01 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/0SF9pCi1WM+vKvDA153NnzpjFAs0DYWN4aY5qvhrXM="
+          "Value": "sha256-Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.txexsf5u7c.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 21:38:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txexsf5u7c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hy69JeEyYDvBvzFY0vtu+uc/6RQqAQaqe/4pRdQL0ew="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
         }
       ]
     },

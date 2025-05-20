@@ -1,11 +1,41 @@
 ﻿@page "/"
 
+@using Microsoft.JSInterop
+@inject IJSRuntime JS
+
 <PageTitle>Inicio</PageTitle>
 
 <section class="hero">
     <div class="hero-content">
-        <h1 class="hero-title">¡Hola! Soy Mario Alberto</h1>
-        <p class="hero-subtitle">Desarrollador de software • Apasionado por los videojuegos</p>
-        <button class="btn-ghost" disabled>Próximamente: Mis proyectos</button>
+        <!-- Nombre con efecto de escritura -->
+        <h1 class="hero-title">
+            <span class="typing-wrapper">
+                <span class="typing">Mario Alberto Morales Rodriguez</span>
+            </span>
+        </h1>
+        <!-- Subtítulo con tus skills -->
+        <p class="hero-subtitle">
+            Desarrollador de software | C#, Blazor, ASP.NET Core, SQL
+        </p>
+
+        <!-- Botón para descargar CV -->
+        <a href="files/tu-cv.pdf" class="btn-ghost" download>
+            📄 Descargar CV
+        </a>
+
+        <!-- Botón de sonido con imagen -->
+        <button class="btn-sound" @onclick="PlayClickSound">
+            <img src="/images/pokebal.png" alt="Play sound" class="sound-icon" />
+        </button>
+        <audio @ref="clickAudio" src="/images/pokemon-red_blue_yellow-item-found-sound-effect.mp3" preload="auto"></audio>
     </div>
 </section>
+
+@code {
+    private ElementReference clickAudio;
+
+    private async Task PlayClickSound()
+    {
+        await JS.InvokeVoidAsync("playAudio", clickAudio);
+    }
+}
