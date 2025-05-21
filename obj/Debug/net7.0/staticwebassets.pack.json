@@ -21,8 +21,8 @@
       "PackagePath": "staticwebassets\\Images\\pokebal.png"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
-      "PackagePath": "staticwebassets\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3"
+      "Id": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Sounds\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "PackagePath": "staticwebassets\\Sounds\\pokemon-red_blue_yellow-item-found-sound-effect.mp3"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\bootstrap\\bootstrap.min.css",

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\PortafolioM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\pages\\sobremi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:pages\\sobremi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\pages\\proyectos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\pages\\sobremi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:pages\\sobremi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\pages\\contacto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:pages\\contacto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D629A891-D1FE-69FE-ED5C-3C42AE984816}|PortafolioM.csproj|c:\\users\\user\\source\\repos\\portafoliom\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,56 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Host.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\_Host.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\_Host.cshtml",
-              "RelativeToolTip": "Pages\\_Host.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T22:57:24.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\PortafolioM\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-20T22:57:05.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Pages\\Index.razor",
               "ToolTip": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\Index.razor",
               "RelativeToolTip": "Pages\\Index.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T00:30:05.901Z"
+              "WhenOpened": "2025-04-09T00:30:05.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
               "ToolTip": "C:\\Users\\User\\source\\repos\\PortafolioM\\Shared\\NavMenu.razor",
               "RelativeToolTip": "Shared\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T00:21:54.562Z"
+              "WhenOpened": "2025-04-09T00:21:54.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
@@ -116,24 +84,12 @@
               "RelativeToolTip": "Shared\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T01:37:47.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\PortafolioM\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T00:28:18.894Z",
+              "WhenOpened": "2025-04-09T01:37:47.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Contacto.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\Contacto.razor",
               "RelativeDocumentMoniker": "Pages\\Contacto.razor",
@@ -145,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\App.razor",
               "RelativeDocumentMoniker": "App.razor",
@@ -157,32 +113,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Proyectos.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\Proyectos.razor",
               "RelativeDocumentMoniker": "Pages\\Proyectos.razor",
               "ToolTip": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\Proyectos.razor",
               "RelativeToolTip": "Pages\\Proyectos.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwCIAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-09T18:36:16.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "SobreMi.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\SobreMi.razor",
               "RelativeDocumentMoniker": "Pages\\SobreMi.razor",
               "ToolTip": "C:\\Users\\User\\source\\repos\\PortafolioM\\Pages\\SobreMi.razor",
               "RelativeToolTip": "Pages\\SobreMi.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T19:34:26.679Z"
+              "WhenOpened": "2025-04-28T19:34:26.679Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PortafolioM\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:28:18.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",

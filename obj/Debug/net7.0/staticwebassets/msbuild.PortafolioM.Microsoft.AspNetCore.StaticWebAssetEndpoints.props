@@ -204,18 +204,6 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u8n04y910o"},{"Name":"integrity","Value":"sha256-Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw\u002BcJUhIE="},{"Name":"label","Value":"_content/PortafolioM/Images/pokebal.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"95782"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Um4ZE0end0uhjEvqlUr8XwcGbZ27cnQIZsVw\u002BcJUhIE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 19:29:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PortafolioM/Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pokemon-red_blue_yellow-item-found-sound-effect.mp3'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE\u002BOVraozD7wF8R1Q="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"37154"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022R1K5kCcrWd3XCdM7AZeMFpye7ZLE\u002BOVraozD7wF8R1Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 19:30:52 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PortafolioM/Images/pokemon-red_blue_yellow-item-found-sound-effect.po8vo2pesi.mp3">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pokemon-red_blue_yellow-item-found-sound-effect.mp3'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"po8vo2pesi"},{"Name":"integrity","Value":"sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE\u002BOVraozD7wF8R1Q="},{"Name":"label","Value":"_content/PortafolioM/Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37154"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022R1K5kCcrWd3XCdM7AZeMFpye7ZLE\u002BOVraozD7wF8R1Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 19:30:52 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PortafolioM/PortafolioM.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PortafolioM.ubixucbp3w.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -227,6 +215,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ubixucbp3w"},{"Name":"integrity","Value":"sha256-ClllUKDzAYEGnONNLDRHJ6orMNsYZT4X5qC8yQYf/Lo="},{"Name":"label","Value":"_content/PortafolioM/PortafolioM.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3013"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ClllUKDzAYEGnONNLDRHJ6orMNsYZT4X5qC8yQYf/Lo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 00:31:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PortafolioM/Sounds/pokemon-red_blue_yellow-item-found-sound-effect.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sounds\pokemon-red_blue_yellow-item-found-sound-effect.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE\u002BOVraozD7wF8R1Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"37154"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022R1K5kCcrWd3XCdM7AZeMFpye7ZLE\u002BOVraozD7wF8R1Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 19:30:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PortafolioM/Sounds/pokemon-red_blue_yellow-item-found-sound-effect.po8vo2pesi.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sounds\pokemon-red_blue_yellow-item-found-sound-effect.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"po8vo2pesi"},{"Name":"integrity","Value":"sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE\u002BOVraozD7wF8R1Q="},{"Name":"label","Value":"_content/PortafolioM/Sounds/pokemon-red_blue_yellow-item-found-sound-effect.mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37154"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022R1K5kCcrWd3XCdM7AZeMFpye7ZLE\u002BOVraozD7wF8R1Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 19:30:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

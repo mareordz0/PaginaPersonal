@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ATTNL2mOAI3SRXquxei+FJj9LwzedD/B0+hgRxuaf14=",
+  "Hash": "v0+lR7U5KqfCZ2h0Z3ha87amHWYsXgNMNzajfr1uvTw=",
   "Source": "PortafolioM",
   "BasePath": "_content/PortafolioM",
   "Mode": "Default",
@@ -416,12 +416,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\pokebal.png"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "Identity": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Sounds\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
       "SourceId": "PortafolioM",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\",
       "BasePath": "_content/PortafolioM",
-      "RelativePath": "Images/pokemon-red_blue_yellow-item-found-sound-effect#[.{fingerprint}]?.mp3",
+      "RelativePath": "Sounds/pokemon-red_blue_yellow-item-found-sound-effect#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -434,7 +434,7 @@
       "Integrity": "R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3"
+      "OriginalItemSpec": "wwwroot\\Sounds\\pokemon-red_blue_yellow-item-found-sound-effect.mp3"
     }
   ],
   "Endpoints": [
@@ -1833,88 +1833,6 @@
       ]
     },
     {
-      "Route": "Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37154"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 19:30:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pokemon-red_blue_yellow-item-found-sound-effect.po8vo2pesi.mp3",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37154"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 19:30:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "po8vo2pesi"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/pokemon-red_blue_yellow-item-found-sound-effect.mp3"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q="
-        }
-      ]
-    },
-    {
       "Route": "PortafolioM.bundle.scp.css",
       "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PortafolioM.bundle.scp.css",
       "Selectors": [],
@@ -2075,6 +1993,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ClllUKDzAYEGnONNLDRHJ6orMNsYZT4X5qC8yQYf/Lo="
+        }
+      ]
+    },
+    {
+      "Route": "Sounds/pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Sounds\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:30:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q="
+        }
+      ]
+    },
+    {
+      "Route": "Sounds/pokemon-red_blue_yellow-item-found-sound-effect.po8vo2pesi.mp3",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Sounds\\pokemon-red_blue_yellow-item-found-sound-effect.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 19:30:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "po8vo2pesi"
+        },
+        {
+          "Name": "label",
+          "Value": "Sounds/pokemon-red_blue_yellow-item-found-sound-effect.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1K5kCcrWd3XCdM7AZeMFpye7ZLE+OVraozD7wF8R1Q="
         }
       ]
     }
