@@ -42,10 +42,3 @@ Una página web de portafolio minimalista inspirada en menús de videojuegos, de
 - **Control de versiones:** Git + GitHub
 
 ---
-
-## 🚀 Cómo arrancar el proyecto localmente
-
-1. Clona este repositorio  
-   ```bash
-   git clone https://github.com/tuusuario/PortafolioPersonalMareo.git
-   cd PortafolioPersonalMareo
