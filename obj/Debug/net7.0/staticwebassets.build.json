@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v0+lR7U5KqfCZ2h0Z3ha87amHWYsXgNMNzajfr1uvTw=",
+  "Hash": "K7d3YnpU6x7JG14W9UQBAc3H9VFbQBYUuREd2wfbH6M=",
   "Source": "PortafolioM",
   "BasePath": "_content/PortafolioM",
   "Mode": "Default",
@@ -325,11 +325,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ifv42okdf2",
-      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "Fingerprint": "f7xun0y4z4",
+      "Integrity": "m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\Cv Mario.pdf",
+      "SourceId": "PortafolioM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\",
+      "BasePath": "_content/PortafolioM",
+      "RelativePath": "Images/Cv Mario#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pw1sxhgy2j",
+      "Integrity": "V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Cv Mario.pdf"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\icono_provisional-mafrow.png",
@@ -1423,7 +1444,7 @@
       ]
     },
     {
-      "Route": "favicon.ifv42okdf2.png",
+      "Route": "favicon.f7xun0y4z4.png",
       "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1433,7 +1454,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1386"
         },
         {
           "Name": "Content-Type",
@@ -1441,11 +1462,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+          "Value": "\"m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 00:19:12 GMT"
+          "Value": "Wed, 21 May 2025 06:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1455,7 +1476,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ifv42okdf2"
+          "Value": "f7xun0y4z4"
         },
         {
           "Name": "label",
@@ -1463,7 +1484,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+          "Value": "sha256-m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs="
         }
       ]
     },
@@ -1478,7 +1499,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1386"
         },
         {
           "Name": "Content-Type",
@@ -1486,11 +1507,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+          "Value": "\"m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 00:19:12 GMT"
+          "Value": "Wed, 21 May 2025 06:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1500,7 +1521,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+          "Value": "sha256-m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Cv Mario.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\Cv Mario.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 21:36:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Cv Mario.pw1sxhgy2j.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\PortafolioM\\wwwroot\\Images\\Cv Mario.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 21:36:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pw1sxhgy2j"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Cv Mario.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo="
         }
       ]
     },

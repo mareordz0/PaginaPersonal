@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "Images/Cv Mario.pdf",
+      "AssetFile": "Images/Cv Mario.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 21:36:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Cv Mario.pw1sxhgy2j.pdf",
+      "AssetFile": "Images/Cv Mario.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 21:36:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pw1sxhgy2j"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+JVJuqEBnqTSzbq8o3lxSYTPi1rgIjLBKJkt7itteo="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Cv Mario.pdf"
+        }
+      ]
+    },
+    {
       "Route": "Images/LogoPersona5.db5jrrn1vz.png",
       "AssetFile": "Images/LogoPersona5.png",
       "Selectors": [],
@@ -1479,7 +1561,7 @@
       ]
     },
     {
-      "Route": "favicon.ifv42okdf2.png",
+      "Route": "favicon.f7xun0y4z4.png",
       "AssetFile": "favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1493,7 +1575,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1386"
         },
         {
           "Name": "Content-Type",
@@ -1501,21 +1583,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+          "Value": "\"m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 00:19:12 GMT"
+          "Value": "Wed, 21 May 2025 06:47:56 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ifv42okdf2"
+          "Value": "f7xun0y4z4"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+          "Value": "sha256-m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs="
         },
         {
           "Name": "label",
@@ -1538,7 +1620,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1386"
         },
         {
           "Name": "Content-Type",
@@ -1546,17 +1628,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+          "Value": "\"m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 00:19:12 GMT"
+          "Value": "Wed, 21 May 2025 06:47:56 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+          "Value": "sha256-m5qvVaRM5zB84Oqvv5Mq+pSG4DkHEux7D4m9muwJ8Gs="
         }
       ]
     }
